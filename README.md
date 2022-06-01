@@ -8,4 +8,4 @@ realmazharhussain@gmail.com
 
 ## Donate
 
-[<img width="48" alt="patreon" src="https://github.githubassets.com/images/modules/site/icons/funding_platforms/patreon.svg"> Mazhar Hussain](https://patreon.com/mazharhussain)
+[<img width="24" alt="patreon" src="https://github.githubassets.com/images/modules/site/icons/funding_platforms/patreon.svg"> Mazhar Hussain](https://patreon.com/mazharhussain)
