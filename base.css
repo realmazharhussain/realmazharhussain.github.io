@@ -1,0 +1,96 @@
+
+html {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+picture, img {
+  height: auto;
+  max-width: 100vw;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2pt;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  padding: 7px 10px;
+  margin: 5px;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.button.prominent {
+  padding: 10px 15px;
+  border-width: 2px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.project-icon {
+  width: 64px;
+}
+
+header {
+  padding: 5vh;
+  margin: 0;
+  margin-bottom: 25pt;
+}
+
+header #profile-picture {
+  margin: 0;
+  max-width: 20vw;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header #description {
+  margin: 10px;
+}
+
+header #buttons {
+  margin-top: 15px;
+}
+
+#projects {
+  display: inline-block;
+  border-radius: 10pt;
+  padding: 15pt;
+  padding-top: 5pt;
+}
+
+#projects h2 {
+  margin-top: 0;
+  margin-bottom: 10pt;
+}
+
+.project {
+  display: block;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.project * {
+  vertical-align: middle;
+}
+
+footer {
+  margin-top: 20pt;
+}

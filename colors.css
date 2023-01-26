@@ -1,0 +1,93 @@
+/* Normal Colors */
+body {
+  color: #222;
+  background-color: white;
+}
+
+a {
+  color: #4b4bff;
+}
+
+a:hover {
+  color: #1919ff;
+}
+
+h2 {
+  color: #19bb6a;
+}
+
+.button {
+  color: #fffd;
+  background-color: #fff2;
+  border-color: #fff4;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #fff3;
+  border-color: #fff6;
+}
+
+.button.prominent {
+  color: #fffe;
+}
+
+header {
+  color: #fff;
+  background: linear-gradient(to right, #155799, #159957);
+}
+
+#projects {
+  background-color: #15995799;
+}
+
+#projects h2 {
+  color: #00ff80;
+}
+
+/* Dark Mode Colors */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #ddd;
+    background-color: black;
+  }
+
+  a {
+    color: #5b6bff;
+  }
+
+  a:hover {
+    color: #80a0ff;
+  }
+
+  h2 {
+    color: #00e774;
+  }
+
+  .button {
+    color: #eeed;
+    border-color: #eee4;
+  }
+
+  .button:hover {
+    color: #eeee;
+    border-color: #eee6;
+  }
+
+  .button.prominent {
+    color: #eeee;
+  }
+
+  .button.prominent:hover {
+    color: #eee;
+  }
+
+  header {
+    color: #ddd;
+    background: linear-gradient(to right, #155799, #159957);
+  }
+
+  #projects h2 {
+    color: #00ff80;
+  }
+}
