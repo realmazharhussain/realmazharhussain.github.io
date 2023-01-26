@@ -59,6 +59,12 @@ header #profile-picture {
 
 header h1 {
   margin: 0;
+  font-size: 3rem;
+}
+
+header h2 {
+  margin: 0;
+  font-size: 2rem;
 }
 
 header #description {
