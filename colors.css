@@ -37,6 +37,10 @@ header {
   background: linear-gradient(to right, #155799, #159957);
 }
 
+header h2 {
+  color: inherit;
+}
+
 #projects {
   background-color: #15995799;
 }
