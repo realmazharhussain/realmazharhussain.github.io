@@ -84,7 +84,8 @@ header #buttons {
   padding-top: 5pt;
 }
 
-#projects h2 {
+#projects h2,
+#platforms h2 {
   margin-top: 0;
   margin-bottom: 10pt;
 }
