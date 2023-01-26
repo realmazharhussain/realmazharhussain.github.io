@@ -54,7 +54,7 @@ header {
 
 header #profile-picture {
   margin: 0;
-  max-width: 20vw;
+  max-width: 200pt;
 }
 
 header h1 {
