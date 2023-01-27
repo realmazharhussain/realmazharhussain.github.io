@@ -112,6 +112,16 @@ header #buttons {
   vertical-align: middle;
 }
 
+#socials a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#socials a img {
+  max-width: 32pt;
+  max-height: 32pt;
+}
+
 footer {
   margin-top: 20pt;
 }
