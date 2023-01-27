@@ -89,8 +89,12 @@ header #buttons {
   margin-bottom: 10pt;
 }
 
-#platforms h2 {
+#donation-platforms h2 {
   margin-bottom: 20pt;
+}
+
+.donation-platform {
+  height: 60px !important;
 }
 
 .project {

@@ -49,6 +49,10 @@ header h2 {
   color: #333;
 }
 
+.donation-platform #patreon-logo {
+  background-color: #141518;
+}
+
 #projects {
   background-color: #00d24899;
 }
