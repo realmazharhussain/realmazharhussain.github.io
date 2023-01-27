@@ -1,0 +1,50 @@
+/* Light Mode Colors */
+body {
+  color: #222;
+  background-color: white;
+}
+
+a {
+  color: #4b4bff;
+}
+
+a:hover {
+  color: #1919ff;
+}
+
+h2 {
+  color: #19bb6a;
+}
+
+.button {
+  color: #fffd;
+  background-color: #fff2;
+  border-color: #fff4;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #fff3;
+  border-color: #fff6;
+}
+
+.button.prominent {
+  color: #fffe;
+}
+
+header {
+  color: #fff;
+  background: linear-gradient(to right, #155799, #159957);
+}
+
+header h2 {
+  color: inherit;
+}
+
+#projects {
+  background-color: #15995799;
+}
+
+#projects h2 {
+  color: #00ff80;
+}

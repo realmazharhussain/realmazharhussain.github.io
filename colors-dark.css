@@ -1,0 +1,48 @@
+/* Dark Mode Colors */
+body {
+  color: #ddd;
+  background-color: black;
+}
+
+a {
+  color: #5b6bff;
+}
+
+a:hover {
+  color: #80a0ff;
+}
+
+h2 {
+  color: #00e774;
+}
+
+.button {
+  color: #eeed;
+  border-color: #eee4;
+}
+
+.button:hover {
+  color: #eeee;
+  border-color: #eee6;
+}
+
+.button.prominent {
+  color: #eeee;
+}
+
+.button.prominent:hover {
+  color: #eee;
+}
+
+header {
+  color: #ddd;
+  background: linear-gradient(to right, #155799, #159957);
+}
+
+header h2 {
+  color: inherit;
+}
+
+#projects h2 {
+  color: #00ff80;
+}
