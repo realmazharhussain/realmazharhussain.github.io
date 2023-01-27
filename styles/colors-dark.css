@@ -43,10 +43,18 @@ header h2 {
   color: inherit;
 }
 
+.project {
+  color: #0019ff;
+}
+
+.project:hover {
+  color: #2137ff;
+}
+
 #projects {
-  background-color: #00e372c4;
+  background-color: #00d24899;
 }
 
 #projects h2 {
-  color: #00ff80;
+  color: #006c2a;
 }
