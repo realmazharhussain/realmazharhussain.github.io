@@ -43,6 +43,10 @@ header h2 {
   color: inherit;
 }
 
+#projects {
+  background-color: #00e372c4;
+}
+
 #projects h2 {
   color: #00ff80;
 }
