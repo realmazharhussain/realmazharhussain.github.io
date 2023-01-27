@@ -97,7 +97,8 @@ header #buttons {
   display: inline-block;
 }
 
-.donation-platform picture,img {
+.donation-platform picture,
+.donation-platform img {
   height: 60px;
 }
 
