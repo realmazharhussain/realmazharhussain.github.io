@@ -94,7 +94,8 @@ header #buttons {
 }
 
 .donation-platform {
-  height: 60px !important;
+  display: inline-block;
+  height: 60px;
 }
 
 .project {
