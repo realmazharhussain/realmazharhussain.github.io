@@ -44,11 +44,11 @@ header h2 {
 }
 
 .project {
-  color: #0019ff;
+  color: #eee;
 }
 
 .project:hover {
-  color: #2137ff;
+  color: #fff;
 }
 
 #projects {
@@ -56,5 +56,5 @@ header h2 {
 }
 
 #projects h2 {
-  color: #006c2a;
+  color: #3fff8a;
 }
