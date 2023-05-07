@@ -89,6 +89,10 @@ header #buttons {
   margin-bottom: 10pt;
 }
 
+#projects :not(h2) {
+  text-align: start;
+}
+
 #donation-platforms h2 {
   margin-bottom: 20pt;
 }
@@ -103,13 +107,25 @@ header #buttons {
 }
 
 .project {
-  display: block;
+  display: grid;
   font-weight: bold;
   font-size: larger;
+  grid-template-columns: auto 1fr;
 }
 
-.project * {
-  vertical-align: middle;
+.project .label {
+  display: grid;
+  align-content: center;
+}
+
+.project > .label > * {
+  margin: 0rem 0.5rem;
+}
+
+.project > .label > .subtitle {
+  font-weight: normal;
+  font-size: 1rem;
+  font-style: italic;
 }
 
 #socials a {
