@@ -128,6 +128,11 @@ header #buttons {
   font-style: italic;
 }
 
+#languages > p,
+#frameworks > p {
+  font-weight: bold;
+}
+
 #socials a {
   display: inline-block;
   vertical-align: middle;
