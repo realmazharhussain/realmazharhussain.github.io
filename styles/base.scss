@@ -33,13 +33,13 @@ a {
   text-decoration: none;
   border: 1px solid;
   border-radius: 5px;
-}
 
-.button.prominent {
-  padding: 10px 15px;
-  border-width: 2px;
-  border-radius: 8px;
-  font-weight: bold;
+  &.prominent {
+    padding: 10px 15px;
+    border-width: 2px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
 }
 
 .project-icon {
@@ -50,47 +50,48 @@ header {
   padding: 5vh;
   margin: 0;
   margin-bottom: 25pt;
+
+  #profile-picture {
+    margin: 0;
+    max-width: 200pt;
+  }
+
+  h1 {
+    margin: 0;
+    margin-bottom: 20pt;
+    padding: 0;
+    font-size: 3rem;
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  #description {
+    margin: 10px;
+  }
+
+  #buttons {
+    margin-top: 15px;
+  }
 }
 
-header #profile-picture {
-  margin: 0;
-  max-width: 200pt;
-}
-
-header h1 {
-  margin: 0;
-  margin-bottom: 20pt;
-  padding: 0;
-  font-size: 3rem;
-}
-
-header h2 {
-  margin: 0;
-  font-size: 2rem;
-}
-
-header #description {
-  margin: 10px;
-}
-
-header #buttons {
-  margin-top: 15px;
-}
 
 #projects {
   display: inline-block;
   border-radius: 10pt;
   padding: 15pt;
   padding-top: 5pt;
-}
 
-#projects h2 {
-  margin-top: 0;
-  margin-bottom: 10pt;
-}
+  h2 {
+    margin-top: 0;
+    margin-bottom: 10pt;
+  }
 
-#projects :not(h2) {
-  text-align: start;
+  :not(h2) {
+    text-align: start;
+  }
 }
 
 #donation-platforms h2 {
@@ -99,11 +100,10 @@ header #buttons {
 
 .donation-platform {
   display: inline-block;
-}
 
-.donation-platform picture,
-.donation-platform img {
-  height: 60px;
+  picture, img {
+    height: 60px;
+  }
 }
 
 #bmac-logo {
@@ -115,21 +115,21 @@ header #buttons {
   font-weight: bold;
   font-size: larger;
   grid-template-columns: auto 1fr;
-}
 
-.project .label {
-  display: grid;
-  align-content: center;
-}
+  .label {
+    display: grid;
+    align-content: center;
 
-.project > .label > * {
-  margin: 0rem 0.5rem;
-}
+    > * {
+      margin: 0rem 0.5rem;
+    }
 
-.project > .label > .subtitle {
-  font-weight: normal;
-  font-size: 1rem;
-  font-style: italic;
+    .subtitle {
+      font-weight: normal;
+      font-size: 1rem;
+      font-style: italic;
+    }
+  }
 }
 
 #languages > p,
@@ -140,11 +140,11 @@ header #buttons {
 #socials a {
   display: inline-block;
   vertical-align: middle;
-}
 
-#socials a img {
-  max-width: 32pt;
-  max-height: 32pt;
+  img {
+    max-width: 32pt;
+    max-height: 32pt;
+  }
 }
 
 footer {

@@ -6,10 +6,10 @@ body {
 
 a {
   color: #4b4bff;
-}
 
-a:hover {
-  color: #1919ff;
+  &:hover {
+    color: #1919ff;
+  }
 }
 
 h2 {
@@ -20,33 +20,33 @@ h2 {
   color: #fffd;
   background-color: #fff2;
   border-color: #fff4;
-}
 
-.button:hover {
-  color: #fff;
-  background-color: #fff3;
-  border-color: #fff6;
-}
+  &:hover {
+    color: #fff;
+    background-color: #fff3;
+    border-color: #fff6;
+  }
 
-.button.prominent {
-  color: #fffe;
+  &.prominent {
+    color: #fffe;
+  }
 }
 
 header {
   color: #fff;
   background: linear-gradient(to right, #155799, #159957);
-}
 
-header h2 {
-  color: inherit;
-}
-
-.project:hover {
-  color: #111;
+  h2 {
+    color: inherit;
+  }
 }
 
 .project {
   color: #333;
+
+  &:hover {
+    color: #111;
+  }
 }
 
 .donation-platform #patreon-logo {
@@ -55,8 +55,8 @@ header h2 {
 
 #projects {
   background-color: #00d24899;
-}
 
-#projects h2 {
-  color: #009d45;
+  h2 {
+    color: #009d45;
+  }
 }
