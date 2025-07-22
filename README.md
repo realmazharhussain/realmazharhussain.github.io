@@ -1,3 +1,3 @@
 # My Personal Website
 
-Visit <https://realmazharhussain.github.io> to see it in action.
+Visit <https://mazharhussain.dev> to see it in action.
